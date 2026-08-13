@@ -2,6 +2,10 @@ import { useState } from "react";
 import players from '../players.json'
 
 function NewTeam(){
+    const [teamPlayers, setTeamPlayers] = useState([]);
+    function addPlayer(player) {
+        setTeamPlayers([...teamPlayers, player]);
+    }
     return(
         <div className="new-team-page">
             <h2>New Team</h2>
@@ -16,6 +20,18 @@ function NewTeam(){
                         <th>Bye Week</th>
                     </tr>
                 </thead>
+                <tbody>
+                    {teamPlayers.map((player) => (
+                        <tr key={player.id}>
+                            <td>{player.name}</td>
+                            <td>{player.position}</td>
+                            <td>{player.team}</td>
+                            <td>{player.projectedPoints} pts</td>
+                            <td>{player.salaryMillions}</td>
+                            <td>{player.byeWeek}</td>
+                        </tr>
+                    ))}
+                </tbody>
             </table>
             <h2>Add Player to Team</h2>
             <table className="players-table">
@@ -33,7 +49,7 @@ function NewTeam(){
                 <tbody>
                     {players.map((player) => (
                         <tr key={player.id}>
-                            <td><button>Add</button></td>
+                            <button onClick={() => addPlayer(player)}>Add</button>
                             <td>{player.name}</td>
                             <td>{player.position}</td>
                             <td>{player.team}</td>

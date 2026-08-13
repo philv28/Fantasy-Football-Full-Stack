@@ -1,4 +1,3 @@
-import NewTeam from './NewTeam.jsx'
 
 function Teams({setActiveTab}) {
     return(

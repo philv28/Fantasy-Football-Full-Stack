@@ -1,4 +1,3 @@
-import Players from './Players.jsx'
 
 function Header({setActiveTab}) {
     return(
