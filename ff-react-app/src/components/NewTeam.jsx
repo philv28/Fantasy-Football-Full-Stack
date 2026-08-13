@@ -3,6 +3,9 @@ import players from '../players.json'
 
 function NewTeam(){
     const [teamPlayers, setTeamPlayers] = useState([]);
+    const availablePlayers = players.filter((player) => {
+        return !teamPlayers.some((teamPlayer) => teamPlayer.id === player.id)
+    });
     function addPlayer(player) {
         setTeamPlayers([...teamPlayers, player]);
     }
@@ -47,7 +50,7 @@ function NewTeam(){
                     </tr>
                 </thead>
                 <tbody>
-                    {players.map((player) => (
+                    {availablePlayers.map((player) => (
                         <tr key={player.id}>
                             <button onClick={() => addPlayer(player)}>Add</button>
                             <td>{player.name}</td>
