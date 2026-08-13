@@ -2,14 +2,33 @@ import players from '../players.json'
 
 function Players(){
     return(
-        <div>
+        <div className="players-page">
             <h2>Players</h2>
+            <table className="players-table">
+                <thead>
+                    <tr>
+                        <th>Name </th>
+                        <th>Position </th>
+                        <th>Team </th>
+                        <th>Projected Points </th>
+                        <th>Salary </th>
+                        <th>Bye Week</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {players.map((player) => (
+                        <tr key={player.id}>
+                            <td>{player.name}</td>
+                            <td>{player.position}</td>
+                            <td>{player.team}</td>
+                            <td>{player.projectedPoints} pts</td>
+                            <td>{player.salaryMillions}</td>
+                            <td>{player.byeWeek}</td>
+                        </tr>
+                    ))}
+                </tbody>
+            </table>
             
-            {players.map((player) => (
-                <div key={player.id}>
-                    Name: {player.name} - Position: {player.position} - Team: {player.team} - Projected Points: {player.projectedPoints} - Salary: {player.salaryMillions} - Bye Week: {player.byeWeek}
-                </div>
-            ))}
         </div>
     );
 }
