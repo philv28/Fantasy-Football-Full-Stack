@@ -1,0 +1,272 @@
+[
+  {
+    "id": 1,
+    "name": "Mason Cole",
+    "team": "CHI",
+    "position": "QB",
+    "projectedPoints": 24.8,
+    "salaryMillions": "$9.8M",
+    "byeWeek": 7
+  },
+  {
+    "id": 2,
+    "name": "Derek Vaughn",
+    "team": "DAL",
+    "position": "QB",
+    "projectedPoints": 22.1,
+    "salaryMillions": "$8.9M",
+    "byeWeek": 10
+  },
+  {
+    "id": 3,
+    "name": "Nico Hart",
+    "team": "MIA",
+    "position": "QB",
+    "projectedPoints": 20.5,
+    "salaryMillions": "$7.6M",
+    "byeWeek": 6
+  },
+  {
+    "id": 4,
+    "name": "Trevor Shaw",
+    "team": "DEN",
+    "position": "QB",
+    "projectedPoints": 18.9,
+    "salaryMillions": "$6.8M",
+    "byeWeek": 12
+  },
+  {
+    "id": 5,
+    "name": "Caleb Monroe",
+    "team": "ATL",
+    "position": "QB",
+    "projectedPoints": 16.4,
+    "salaryMillions": "$5.7M",
+    "byeWeek": 11
+  },
+  {
+    "id": 6,
+    "name": "Jalen Price",
+    "team": "SF",
+    "position": "RB",
+    "projectedPoints": 21.7,
+    "salaryMillions": "$9.4M",
+    "byeWeek": 9
+  },
+  {
+    "id": 7,
+    "name": "Marcus Bell",
+    "team": "BAL",
+    "position": "RB",
+    "projectedPoints": 19.8,
+    "salaryMillions": "$8.5M",
+    "byeWeek": 13
+  },
+  {
+    "id": 8,
+    "name": "Tyler Knox",
+    "team": "DET",
+    "position": "RB",
+    "projectedPoints": 18.3,
+    "salaryMillions": "$7.9M",
+    "byeWeek": 5
+  },
+  {
+    "id": 9,
+    "name": "Andre Fields",
+    "team": "NYJ",
+    "position": "RB",
+    "projectedPoints": 16.9,
+    "salaryMillions": "$7.1M",
+    "byeWeek": 8
+  },
+  {
+    "id": 10,
+    "name": "Devin Cross",
+    "team": "HOU",
+    "position": "RB",
+    "projectedPoints": 15.2,
+    "salaryMillions": "$6.4M",
+    "byeWeek": 14
+  },
+  {
+    "id": 11,
+    "name": "Elijah Stone",
+    "team": "SEA",
+    "position": "RB",
+    "projectedPoints": 13.6,
+    "salaryMillions": "$5.8",
+    "byeWeek": 6
+  },
+  {
+    "id": 12,
+    "name": "Roman Ellis",
+    "team": "TB",
+    "position": "RB",
+    "projectedPoints": 11.4,
+    "salaryMillions": "$4.9M",
+    "byeWeek": 11
+  },
+  {
+    "id": 13,
+    "name": "Jayden Brooks",
+    "team": "LV",
+    "position": "RB",
+    "projectedPoints": 9.8,
+    "salaryMillions": "$4.1M",
+    "byeWeek": 10
+  },
+  {
+    "id": 14,
+    "name": "Camden Reed",
+    "team": "CIN",
+    "position": "WR",
+    "projectedPoints": 22.4,
+    "salaryMillions": "$9.6M",
+    "byeWeek": 10
+  },
+  {
+    "id": 15,
+    "name": "Isaiah Lane",
+    "team": "PHI",
+    "position": "WR",
+    "projectedPoints": 20.6,
+    "salaryMillions": "$8.8M",
+    "byeWeek": 9
+  },
+  {
+    "id": 16,
+    "name": "Miles Carter",
+    "team": "BUF",
+    "position": "WR",
+    "projectedPoints": 18.7,
+    "salaryMillions": "$7.7M",
+    "byeWeek": 12
+  },
+  {
+    "id": 17,
+    "name": "Jordan Hayes",
+    "team": "LAC",
+    "position": "WR",
+    "projectedPoints": 17.1,
+    "salaryMillions": "$7.0M",
+    "byeWeek": 5
+  },
+  {
+    "id": 18,
+    "name": "Kieran Moss",
+    "team": "GB",
+    "position": "WR",
+    "projectedPoints": 15.5,
+    "salaryMillions": "$6.3M",
+    "byeWeek": 8
+  },
+  {
+    "id": 19,
+    "name": "Noah Grant",
+    "team": "ARI",
+    "position": "WR",
+    "projectedPoints": 13.9,
+    "salaryMillions": "$5.6M",
+    "byeWeek": 11
+  },
+  {
+    "id": 20,
+    "name": "Malik Turner",
+    "team": "TEN",
+    "position": "WR",
+    "projectedPoints": 12.1,
+    "salaryMillions": "$4.8M",
+    "byeWeek": 7
+  },
+  {
+    "id": 21,
+    "name": "Wesley Brooks",
+    "team": "CAR",
+    "position": "WR",
+    "projectedPoints": 10.4,
+    "salaryMillions": "$4.0M",
+    "byeWeek": 14
+  },
+  {
+    "id": 22,
+    "name": "Owen Pierce",
+    "team": "KC",
+    "position": "TE",
+    "projectedPoints": 16.2,
+    "salaryMillions": "$7.2M",
+    "byeWeek": 10
+  },
+  {
+    "id": 23,
+    "name": "Logan West",
+    "team": "MIN",
+    "position": "TE",
+    "projectedPoints": 13.8,
+    "salaryMillions": "$6.1M",
+    "byeWeek": 6
+  },
+  {
+    "id": 24,
+    "name": "Ethan Vale",
+    "team": "IND",
+    "position": "TE",
+    "projectedPoints": 11.5,
+    "salaryMillions": "$5.0M",
+    "byeWeek": 11
+  },
+  {
+    "id": 25,
+    "name": "Carter Flynn",
+    "team": "NO",
+    "position": "TE",
+    "projectedPoints": 8.7,
+    "salaryMillions": "$3.8M",
+    "byeWeek": 12
+  },
+  {
+    "id": 26,
+    "name": "Chicago Defense",
+    "team": "CHI",
+    "position": "DST",
+    "projectedPoints": 9.6,
+    "salaryMillions": "$4.6M",
+    "byeWeek": 7
+  },
+  {
+    "id": 27,
+    "name": "Seattle Defense",
+    "team": "SEA",
+    "position": "DST",
+    "projectedPoints": 8.8,
+    "salaryMillions": "$4.2M",
+    "byeWeek": 6
+  },
+  {
+    "id": 28,
+    "name": "Miami Defense",
+    "team": "MIA",
+    "position": "DST",
+    "projectedPoints": 7.9,
+    "salaryMillions": "$3.7M",
+    "byeWeek": 6
+  },
+  {
+    "id": 29,
+    "name": "Blake Warren",
+    "team": "DAL",
+    "position": "K",
+    "projectedPoints": 8.5,
+    "salaryMillions": "$3.6M",
+    "byeWeek": 10
+  },
+  {
+    "id": 30,
+    "name": "Samir Holt",
+    "team": "DEN",
+    "position": "K",
+    "projectedPoints": 7.7,
+    "salaryMillions": "$3.2M",
+    "byeWeek": 12
+  }
+]

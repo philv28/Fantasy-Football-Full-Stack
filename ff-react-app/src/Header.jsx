@@ -1,14 +1,13 @@
+import Players from './Players.jsx'
 
 function Header(){
     return(
         <header> 
             <h1>Fantasy Football App</h1>
             <nav>
-                <ul>
-                    <li><a href = '#'>Players</a></li>
-                    <li><a href = '#'>Teams</a></li>
-                    <li><a href = '#'>Leagues</a></li>
-                </ul>
+                <button onClick={() => setActiveTab("players")}>Players</button>
+                <button onClick={() => setActiveTab("teams")}>Teams</button>
+                <button onClick={() => setActiveTab("leagues")}>Leagues</button>
             </nav>
             <hr/>
         </header>
